@@ -13,7 +13,7 @@ const Navbar = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            if (Window.scrollY > 100) {
+            if (window.scrollY > 100) {
                 setIsSticky(true);
             } else {
                 setIsSticky(false);
