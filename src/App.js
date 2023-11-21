@@ -7,6 +7,7 @@ import About from './components/About/About';
 import Product from './components/Product/Product';
 import Blog from './components/Blog/Blog';
 import Newsletter from './components/Newsletter/Newsletter';
+import MyFooter from './components/MyFooter/MyFooter';
 
 const App = () => {
     return (
@@ -18,6 +19,7 @@ const App = () => {
             <Product></Product>
             <Blog></Blog>
             <Newsletter></Newsletter>
+            <MyFooter></MyFooter>
         </div>
     )
 }
