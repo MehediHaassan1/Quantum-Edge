@@ -1,17 +1,23 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/navbar/Navbar';
+import Hero from './components/hero/Hero';
+import Service from './components/service/Service';
+import About from './components/about/About';
+import Product from './components/product/Product';
+import Testimonial from './components/testimonial/Testimonial';
+import Faq from './components/faq/Faq';
 
 const App = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <section>Home</section>
-            <section>Service</section>
-            <section>About</section>
-            <section>Product</section>
-            <section>Testimonial</section>
-            <section>Faq</section>
+            {/* <Hero></Hero>
+            <Service></Service>
+            <About></About>
+            <Product></Product>
+            <Testimonial></Testimonial>
+            <Faq></Faq> */}
         </div>
     )
 }

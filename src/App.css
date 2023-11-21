@@ -5,12 +5,12 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-html{
+/* html{
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
 
-section{
+.main > * {
     height: 100vh;
     scroll-snap-align: center;
-}
+} */
